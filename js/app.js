@@ -1,5 +1,5 @@
 // ====== CONFIG ======
-const TMDB_API_KEY = 'YOUR_API_KEY_HERE'; // TODO: put your TMDB v3 API key here
+const TMDB_API_KEY = 'b6820c2c194286755bb49fe79e9227b'; 
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 const TMDB_IMG_BASE = 'https://image.tmdb.org/t/p/w200';
 
@@ -165,7 +165,7 @@ function renderSearchPageView() {
   $('#search-next').prop('disabled', searchState.viewPage === 5);
 }
 
-// ====== Collection (Popular Movies) ======
+// Collection (Popular Movies)
 function loadCollection(page) {
   const url = `${TMDB_BASE_URL}/movie/popular`; // popular movies endpoint[web:32]
 
