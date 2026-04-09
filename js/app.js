@@ -1,5 +1,5 @@
 // ====== CONFIG ======
-const TMDB_API_KEY = 'b66820c2c194286755bb49fe79e9227b';// TODO: put your TMDB v3 API key here
+const TMDB_API_KEY = 'b66820c2c194286755bb49fe79e9227b';
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 const TMDB_IMG_BASE = 'https://image.tmdb.org/t/p/w200';
 
